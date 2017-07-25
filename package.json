@@ -1,8 +1,36 @@
 {
-  "name": "twitterbot",
+  "name": "twitterbotnode",
   "version": "1.0.0",
-  "description": "A node powered twitter bot",
+  "description": "A node.js twitter bot",
   "main": "index.js",
+  "dependencies": {
+    "asciify": "^1.3.5",
+    "chalk": "^2.0.1",
+    "clear": "0.0.1",
+    "cleverbot-node": "^0.3.4",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.0",
+    "fs": "^0.0.1-security",
+    "github": "^9.2.0",
+    "inquirer": "^3.1.1",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0",
+    "node-twitter-api": "^1.8.0",
+    "nvm": "^0.0.4",
+    "performance-now": "^0.2.0",
+    "pm2": "^2.1.5",
+    "preferences": "^0.2.1",
+    "request": "^2.78.0",
+    "simple-git": "^1.73.0",
+    "socket.io": "^1.5.1",
+    "touch": "^3.1.0",
+    "twit": "^2.2.5",
+    "twitter": "^1.4.0",
+    "webpage-preview": "^0.0.2",
+    "websocket": "^1.0.23",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,20 +38,6 @@
     "twitter",
     "bot"
   ],
-  "author": "Murad Jouhari < megaline#0450 >",
-  "license": "MIT",
-  "bin": {
-    "twitterbot": "./index.js"
-  },
-  "dependencies": {
-    "chalk": "^1.1.3",
-    "clear": "0.0.1",
-    "clui": "^0.3.1",
-    "figlet": "^1.1.2",
-    "inquirer": "^1.1.0",
-    "lodash": "^4.13.1",
-    "minimist": "^1.2.0",
-    "preferences": "^0.2.1",
-    "touch": "^1.0.0"
-  }
+  "author": "Megaline",
+  "license": "MIT"
 }

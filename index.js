@@ -9,7 +9,7 @@ var GitHubApi   = require('./node_modules/github');
 var fs          = require('fs');
 var Twit = require('./node_modules/twit')
 var prompt = require('prompt');
-var DONOTGIVEAWAY = fs.readFileSync('/Users/samjouhari/Documents/bots/nodetwitterbot/DONOTGIVEAWAY.json')
+var DONOTGIVEAWAY = fs.readFileSync('./DONOTGIVEAWAY.json')
 var DONOT = JSON.parse(DONOTGIVEAWAY)
 
 function start(){

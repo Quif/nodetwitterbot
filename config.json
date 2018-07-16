@@ -1,0 +1,9 @@
+{
+        "consumerKey":"",
+        "consumerSecret":"",
+        "accessToken":"",
+        "accessTokenSecret":"",
+        "discordBotToken":"",
+        "prefix":"!",
+        "adminID":[ "admin1", "admin2"]
+}

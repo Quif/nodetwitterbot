@@ -7,8 +7,7 @@ var GitHubApi = require('github');
 var fs = require('fs');
 var Twit = require('twit')
 var prompt = require('prompt');
-var DONOTGIVEAWAY = fs.readFileSync('/Users/samjouhari/Desktop/nodetwitterbot/config.json')
-var DONOT = JSON.parse(DONOTGIVEAWAY)
+var DONOT = require('./config.json')
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 

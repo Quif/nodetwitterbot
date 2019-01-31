@@ -181,6 +181,30 @@ function discord() {
                 }
             })
         }
+        if (input.startsWith(DONOT.prefix + "eval")) {
+        DONOT.adminID.forEach(function(element) {
+          if (element === msg.author.id) {
+
+              var code = msg.content.split(" ").splice(1).join(" ")
+
+              try {
+
+
+                  msg.channel.sendMessage("​`\`\`xl\n" +
+                      "The Result· " + eval(code) + "​`\`\`");
+
+
+
+              } catch (err) {
+
+                  msg.channel.sendMessage(
+                      "`\`\`xl\n" +
+                      "Error· " + err + "`\`\`")
+
+              }
+            }
+          })
+        }
     });
 }
 

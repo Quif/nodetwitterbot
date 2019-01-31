@@ -133,7 +133,7 @@ function discord() {
 
         var input = msg.content.toLowerCase();
 
-        var want = msg.content.split(" ")[1];
+        var want = msg.content.split(" ").slice(2).join(" ");
 
         if (input.startsWith(DONOT.prefix + "tweet ")) {
             DONOT.adminID.forEach(function(element) {

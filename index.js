@@ -36,16 +36,6 @@ function start() {
         }
     }];
 
-    inquirer.prompt(questions).then(function(answers) {
-        var answer = answers["twitterOrDiscord"]
-        console.log(chalk.magenta('\nYou have chosen:'));
-        console.log(chalk.yellow(answer));
-        if (answer === "discord") {
-            console.log(chalk.red('Sorry but i havent added the discord feature yet.'))
-        } else {
-            getTwitterToken()
-        }
-    });
 }
 
 clear();
